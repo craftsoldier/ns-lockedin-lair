@@ -10,7 +10,7 @@ export default function Home() {
     <div
       className={`min-h-dvh bg-black text-white flex items-center justify-center p-6 sm:p-10 ${oswald.className}`}
     >
-      <main className="w-full max-w-lg border-2 sm:border-4 border-red-600 p-6 sm:p-10">
+      <main className="w-full max-w-md sm:max-w-xl lg:max-w-2xl border-2 sm:border-4 border-red-600 p-6 sm:p-10 lg:p-12">
         {/* Logo/Title */}
         <div className="text-center mb-6 sm:mb-8">
           {/* NS Flag Logo - Red with Black Cross */}
@@ -43,16 +43,16 @@ export default function Home() {
               <rect x="38" y="28" width="24" height="8" fill="black" />
             </svg>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-bold tracking-[0.25em] text-red-500 mb-2">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-[0.25em] text-red-500 mb-2">
             LOCKIN LAIR
           </h1>
-          <h2 className="text-lg sm:text-xl font-bold tracking-wider border-b-2 border-red-600 pb-1 inline-block">
+          <h2 className="text-lg sm:text-xl lg:text-2xl font-bold tracking-wider border-b-2 border-red-600 pb-1 inline-block">
             HOUSE RULES
           </h2>
         </div>
 
         {/* Rules - Centered */}
-        <div className="space-y-4 sm:space-y-5 text-center text-sm sm:text-base">
+        <div className="space-y-4 sm:space-y-5 lg:space-y-6 text-center text-sm sm:text-base lg:text-lg">
           <Rule number={1}>
             <Highlight>LOCK IN TOGETHER</Highlight>. SHOW UP, GET SHIT DONE.
           </Rule>
