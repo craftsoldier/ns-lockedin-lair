@@ -95,10 +95,10 @@ function Rule({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex items-center justify-center gap-3">
-      <span className="text-red-500 font-bold">{number}.</span>
-      <p>{children}</p>
-    </div>
+    <p>
+      <span className="text-red-500 font-bold">{number}.</span>{" "}
+      {children}
+    </p>
   );
 }
 
